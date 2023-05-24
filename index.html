@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet" />
+		<link href="./style.css" rel="stylesheet" />
+	</head>
+	<body>
+		<header class="header">
+			<div class="container">Logo</div>
+		</header>
+
+		<!-- hero -->
+		<section class="hero">
+			<div class="container">
+				<div class="hero-container">
+					<div class="hero-background"></div>
+					<div class="hero-column">
+						<div class="hero-content">
+							<h1>Body Mass Index Calculator</h1>
+							<p class="hero-description">Better understand your weight in relation to your height using our body mass index (BM) calculator. While BMI is not the sole determinant of a healthy weight, it offers a valuable starting point to evaluate your overall health and well-being.</p>
+						</div>
+					</div>
+					<div class="hero-column">
+						<form class="bmi-calculator">
+							<h2>Enter your details below</h2>
+							<div class="bmi-calculator-row metrics">
+								<div class="bmi-calculator-column">
+									<label>
+										<input type="radio" />
+										Metric
+									</label>
+								</div>
+								<div class="bmi-calculator-column">
+									<label>
+										<input type="radio" />
+										Imperial
+									</label>
+								</div>
+							</div>
+							<div class="bmi-calculator-row">
+								<div class="bmi-calculator-column">
+									<label>Height</label>
+									<input type="number" placeholder="cm" />
+								</div>
+								<div class="bmi-calculator-column">
+									<label>Weight</label>
+									<input type="number" placeholder="kg" />
+								</div>
+							</div>
+							<div class="bmi-calculator-row bmi-calculator-result">
+								<div class="bmi-calculator-column">
+									<h3>Your BMI is...</h3>
+									<span class="bmi-calculator-result-value">23.4</span>
+								</div>
+								<div class="bmi-calculator-column">
+									<p>Your BMI suggests you're a healthy weight. Your ideal weight is between 63.3kgs - 85.2kgs.</p>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- end of hero-->
+	</body>
+</html>
